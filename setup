@@ -1,0 +1,5 @@
+sysupdate
+bin/setup
+lib/setup
+src/setup
+rebuild

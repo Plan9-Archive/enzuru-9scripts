@@ -1,0 +1,5 @@
+#!/bin/rc
+cp plumbing $home/lib/plumbing
+cp profile $home/lib/profile
+9fs 9fat
+cp plan9.ini /n/9fat/

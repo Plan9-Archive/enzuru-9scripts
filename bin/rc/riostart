@@ -1,0 +1,6 @@
+#!/bin/rc
+window 32,32,1888,256 stats -lis
+window 32,288,944,1048 acme -c 1
+window 976,288,1888,652
+window 976,684,1888,1048
+$home/bin/rc/setup

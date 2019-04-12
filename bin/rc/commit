@@ -1,0 +1,5 @@
+#!/bin/rc
+HGEDITOR=acme
+hg add
+hg commit
+hg push

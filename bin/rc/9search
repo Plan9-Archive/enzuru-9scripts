@@ -1,0 +1,2 @@
+#!/bin/rc
+grep -n $1 `{du -a /sys/src | awk 'index($2, ".c") || index($2, ".h")' | awk '{print $2}'}

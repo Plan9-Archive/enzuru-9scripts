@@ -1,0 +1,2 @@
+#!/bin/rc
+du -a / | grep $1

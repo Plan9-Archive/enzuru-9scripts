@@ -1,0 +1,5 @@
+#!/bin/rc
+cp acme.c /sys/src/cmd/acme/acme.c
+cp data.c /sys/src/cmd/rio/data.c
+cp stats.c /sys/src/cmd/stats.c
+cp draw.h /sys/include/draw.h

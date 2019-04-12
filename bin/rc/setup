@@ -1,0 +1,2 @@
+#!/bin/rc
+echo 'key proto=pass realm=''Bitbucket.org HTTP'' server=bitbucket.org service=http user=enzuru !password=password' >> /mnt/factotum/ctl

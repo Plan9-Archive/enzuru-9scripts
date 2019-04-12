@@ -1,0 +1,2 @@
+#!/bin/rc
+grep -n $1 `{du -a /usr/glenda | awk '{print $2}'}

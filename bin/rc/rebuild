@@ -1,0 +1,9 @@
+#!/bin/rc
+sysupdate
+cd /sys/src
+mk install
+mk clean
+9fs 9fat
+rm /n/9fat/9bootfat
+cp /386/9bootfat /n/9fat/
+chmod +al /n/9fat/9bootfat
